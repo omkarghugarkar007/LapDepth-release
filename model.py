@@ -17,7 +17,6 @@ if os.environ.get('DISPLAY','') == '':
     mpl.use('Agg')
 import matplotlib.pyplot as plt
 from torch.jit import script
-import geffnet
 
 #__all__ = ['mish','Mish']
 
